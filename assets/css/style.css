@@ -196,6 +196,7 @@ figcaption {
     /* width: 270px;
     float: right; */
     background-color: #FFF;
+    margin-bottom: 20px;
 } 
 
 body {
@@ -226,4 +227,5 @@ footer {
 
 .heading {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-color: #FFF;
 }
