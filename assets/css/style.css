@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -7,9 +7,7 @@ html {
 height: 100%;
 }
 
-body {
-    background-image: url("../../assets/images/concrete.png");
-}
+
 
 a {
     text-decoration: none;
@@ -185,7 +183,7 @@ figcaption {
     margin: 0;
     padding: 0;
     width: 75px;
-}
+} */
 
 #profile {
     width: 200px;
@@ -194,14 +192,19 @@ figcaption {
     margin-right: 10px;
 }
 
-#sidebar {
-    width: 270px;
-    float: right;
+.content {
+    /* width: 270px;
+    float: right; */
+    background-color: #FFF;
+} 
+
+body {
+    background-image: url("../../assets/images/concrete.png");
 }
 
-.footer {
+footer {
     clear: both;
-    position: relative;
+    /* position: relative; */
     background-color: #666;
     border-top: 5px solid #4AAAA5;
     bottom: 0;
@@ -210,6 +213,17 @@ figcaption {
     height: 100px;
     left: 0;
     padding-top: 44px;
-    text-align: center;
-    width: 100%;
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+#header {
+    border-bottom: 3px solid #CCC;
+    background-color: #FFF;
+}
+
+.heading {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
