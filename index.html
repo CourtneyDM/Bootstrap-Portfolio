@@ -5,120 +5,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 
-    <title>Bootstrap Portfolio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
+    <!-- Start of index.html page -->
+
+    <!-- Header section -->
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="col-sm-7">Courtney Montgomery</h2>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4">
+                <nav class="navbar">
+                    <ul class="nav navbar-nav list-inline">
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End of Header section -->
 
 
-    <!-- Start of Webpage -->
+    <!-- Start of page content -->
     <div class="container">
 
-        <!-- Header section -->
-        <header class="page-header">
-
-            <div class="row">
-                <h2 class="col-lg-8">Courtney Montgomery</h2>
-                <div class="col-lg-4">
-                    <nav class="navbar">
-                        <ul class="nav navbar-nav list-inline">
-                            <li>
-                                <a href="index.html">About</a>
-                            </li>
-                            <li>
-                                <a href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+        <!-- Start of About Me content -->
+        <div class="row">
+            <div class="container-fluid col-md-7 well">
+                <h2 class="page-header">About Me</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-responsive img-rounded" src="assets/images/profile.jpeg" />
+                    </div>
+                    <div class="col-md-8">
+                        <p>I am a Computer Science graduate from the University of North Texas, looking to make my professional
+                            entry into the world of development. I recently enrolled in a coding bootcamp offered by Southern
+                            Methodist University, and am super excited to embark on my journey to become a full-stack developer.
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>I have a solid foundation in various web development languages, such as HTML, CSS and Javascript,
+                            and have been exposed to jQuery, PHP and other frameworks, in addition to back-end technologies.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p>I am detail-oriented and self-driven, which results to me being my biggest critic. I am aware of
+                            my capabilities and am not afraid to learn from failure or humility. I want my work to represent
+                            my character in the best way possible.</p>
+                    </div>
                 </div>
             </div>
-        </header>
-        <!-- End of Header section -->
+            <!-- End of About Me section -->
 
 
-        <!-- Start of main content -->
-        <div class="row">
-            <div class="col-lg-9">
+            <div class="col-sm-1"></div>
 
-                <!-- Start of About Me section -->
-                <article class="media well well-lg">
-                    <h3 class="page-header">About Me</h3>
-
-                    <div class="media">
-                        <div class="media-left">
-                            <img class="img-rounded" src="assets/images/profile.jpeg" />
+            <!-- Start of Connect with Me content -->
+            <div class="container-fluid col-sm-4 well">
+                <h3 class="page-header">Connect with Me</h3>
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-sm-3">
+                            <a href="https://github.com/CourtneyDM">
+                                <img src="assets/images/github.png" alt="Github Profile">
+                            </a>
                         </div>
-
-                        <div class="media-body">
-                            <p>I am a Computer Science graduate from the University of North Texas, looking to make my professional
-                                entry into the world of development. I recently enrolled in a coding bootcamp offered by
-                                Southern Methodist University, and am super excited to embark on my journey to become a full-stack
-                                developer.
-                            </p>
-                            <br>
-
-                            <p>I have a solid foundation in various web development languages, such as HTML, CSS and Javascript,
-                                and have been exposed to jQuery, PHP and other frameworks, in addition to back-end technologies.</p>
-                            <br>
-
-                            <p>I am detail-oriented and self-driven, which results to me being my biggest critic. I am aware
-                                of my capabilities and am not afraid to learn from failure or humility. I want my work to
-                                represent my character in the best way possible.</p>
-                            <br>
+                        <div class="col-sm-3">
+                            <a href="https://www.linkedin.com/in/CourtneyDM">
+                                <img src="assets/images/linkedin.png" alt="LinkedIn Profile">
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="https://www.stackoverflow.com">
+                                <img src="assets/images/stackoverflow.png" alt="StackOverflow Profile">
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="https://twitter.com/CourtneyDM_">
+                                <img src="assets/images/twitter.png" alt="Twitter Profile">
+                            </a>
                         </div>
                     </div>
-
-                </article>
-                <!-- End of About Me section -->
-
+                </div>
             </div>
-
-
-            <!-- Start of Connect with Me section -->
-            <div class="col-lg-3">
-                <aside class="well well-sm">
-                    <h4 class="page-header heading">Connect with Me</h4>
-
-                    <a href="https://github.com/CourtneyDM">
-                        <img src="assets/images/github.png">
-                    </a>
-
-                    <a href="http://www.linkedin.com/in/CourtneyDM">
-                        <img src="assets/images/linkedin.png">
-                    </a>
-
-                    <a href="https://stackoverflow.com/users/8827802/courtney-m">
-                        <img src="assets/images/stackoverflow.png">
-                    </a>
-
-                    <a href="https://www.twitter.com/CourtneyDM_">
-                        <img src="assets/images/twitter.png">
-                    </a>
-                </aside>
-            </div>
-            <!-- End of Connect with Me section -->
-
         </div>
     </div>
     <!-- End of page content -->
 
 
     <!-- Footer -->
-    <footer class="footer navbar-fixed-bottom">
+    <footer class="navbar navbar-inverse navbar-fixed-bottom">
         <div class="container text-center">
             <span class="text-muted">Copyright &copy; 2018 Courtney Montgomery</span>
         </div>
     </footer>
 
-
-    <!-- End of Page -->
+    <!-- End of Portfolio.html page -->
 </body>
 
 </html>
