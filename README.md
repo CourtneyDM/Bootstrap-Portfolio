@@ -25,8 +25,8 @@ This portfolio was created using HTML, CSS and Bootstrap 3.7.7. It is a bare bon
 
 
 ## Suggested Changes
-[ ] Add background image to page
-[ ] Improve navigation bar, maybe include condensed nav bar when page scrolls
-[ ] Create a carousel to showcase portfolio thumbnails/images
-[ ] Update profile pic and change shape and layout
-[ ] Include Twitter activity in sidebar
+- [ ] Add background image to page
+- [ ] Improve navigation bar, maybe include condensed nav bar when page scrolls
+- [ ] Create a carousel to showcase portfolio thumbnails/images
+- [ ] Update profile pic and change shape and layout
+- [ ] Include Twitter activity in sidebar
